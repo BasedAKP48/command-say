@@ -1,0 +1,27 @@
+{
+  "name": "@basedakp48/say",
+  "version": "1.0.0",
+  "description": "Have the bot say stuff.",
+  "license": "MIT",
+  "author": "Alan H (feildmaster) <akp48@feildmaster.com> (https://feildmaster.com/)",
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "keywords": [
+    "basedakp48",
+    "basedakp48-plugin"
+  ],
+  "dependencies": {
+    "@basedakp48/plugin-utils": "^1.16.0",
+    "bluebird": "^3.7.2"
+  },
+  "devDependencies": {
+    "eris": "^0.9.0",
+    "eslint": "^5.9.0",
+    "mocha": "^7.1.1"
+  }
+}
